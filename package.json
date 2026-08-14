@@ -1,7 +1,7 @@
 {
   "name": "@trebired/configs",
-  "version": "0.1.3",
-  "description": "Shared Trebired package configuration tree.",
+  "version": "0.1.4",
+  "description": "Shared Trebired package configuration presets.",
   "type": "module",
   "private": false,
   "packageManager": "bun@1.3.12",
@@ -14,9 +14,7 @@
     }
   },
   "files": [
-    ".trebired/**/config.ts",
-    ".trebired/code-discipline/imports/*.json",
-    ".trebired/frontend/**/*.ts"
+    ".trebired/code-discipline/config.ts"
   ],
   "repository": {
     "type": "git",
