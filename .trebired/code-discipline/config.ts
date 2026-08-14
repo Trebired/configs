@@ -1,5 +1,5 @@
 export default {
-  forVersion: "6.0.15",
+  forVersion: "6.1.0",
   logging: {
     warnings: false,
   },
@@ -26,6 +26,7 @@ export default {
       max: 50,
     },
     redundantPathSegments: {},
+    emptyFolders: {},
     removeComments: {},
     imports: {
       alias: {
