@@ -1,4 +1,5 @@
 export default {
+  forVersion: "1.1.0",
   client: {
     allowDowngrade: false,
     allowSameVersion: false,

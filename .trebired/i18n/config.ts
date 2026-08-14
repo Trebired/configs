@@ -1,4 +1,5 @@
 export default {
+  forVersion: "0.4.10",
   defaultLanguage: "en",
   fallbackLanguage: "en",
   local: {

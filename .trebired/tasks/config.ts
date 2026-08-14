@@ -1,4 +1,5 @@
 export default {
+  forVersion: "1.2.0",
   runner: {
     globalConcurrency: 2,
     heartbeatMs: 2000,

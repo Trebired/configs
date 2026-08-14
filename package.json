@@ -1,6 +1,6 @@
 {
   "name": "@trebired/configs",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Shared Trebired package configuration tree.",
   "type": "module",
   "private": false,

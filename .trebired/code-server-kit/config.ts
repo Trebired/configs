@@ -1,4 +1,5 @@
 export default {
+  forVersion: "1.5.0",
   browser: {
     diagnostics: {
       bridgeProperty: "__repositoryIdeBridge",
