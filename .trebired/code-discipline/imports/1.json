@@ -1,0 +1,14 @@
+{
+  "#407ce1x6tdec": "./bundler.ts",
+  "#5q48gxzmexsg": "./config.ts",
+  "#5zu330zip2bn": "./git-host.ts",
+  "#71no0rkktp07": "./store.ts",
+  "#7a878qgurhce": "./code-server-kit.ts",
+  "#cczooctqdsvn": "./tasks.ts",
+  "#fis75ez9bkvc": "./update.ts",
+  "#g3dj369n26b0": "./frontend.ts",
+  "#hjvut57vwo1z": "./i18n.ts",
+  "#ptwcpgf4ceh7": "./logger.ts",
+  "#qo3jyt0mmf5c": "./result.ts",
+  "#u931btvdo8db": "./bootstrap.ts"
+}

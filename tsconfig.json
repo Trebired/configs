@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "noEmit": true,
+    "strict": true,
+    "target": "ES2020"
+  },
+  "extends": "./.trebired/code-discipline/generated/tsconfig.paths.json",
+  "include": [
+    "*.ts",
+    ".trebired/**/*.ts"
+  ]
+}
