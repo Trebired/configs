@@ -1,7 +1,7 @@
 {
   "name": "@trebired/configs",
-  "version": "0.1.0",
-  "description": "Shared Trebired package configs.",
+  "version": "0.1.1",
+  "description": "Shared Trebired Code Discipline preset config.",
   "type": "module",
   "private": false,
   "packageManager": "bun@1.3.12",
@@ -11,58 +11,10 @@
     ".": {
       "import": "./config.ts",
       "types": "./config.ts"
-    },
-    "./code-discipline": {
-      "import": "./config.ts",
-      "types": "./config.ts"
-    },
-    "./bootstrap": {
-      "import": "./bootstrap.ts",
-      "types": "./bootstrap.ts"
-    },
-    "./bundler": {
-      "import": "./bundler.ts",
-      "types": "./bundler.ts"
-    },
-    "./code-server-kit": {
-      "import": "./code-server-kit.ts",
-      "types": "./code-server-kit.ts"
-    },
-    "./frontend": {
-      "import": "./frontend.ts",
-      "types": "./frontend.ts"
-    },
-    "./git-host": {
-      "import": "./git-host.ts",
-      "types": "./git-host.ts"
-    },
-    "./i18n": {
-      "import": "./i18n.ts",
-      "types": "./i18n.ts"
-    },
-    "./logger": {
-      "import": "./logger.ts",
-      "types": "./logger.ts"
-    },
-    "./result": {
-      "import": "./result.ts",
-      "types": "./result.ts"
-    },
-    "./store": {
-      "import": "./store.ts",
-      "types": "./store.ts"
-    },
-    "./tasks": {
-      "import": "./tasks.ts",
-      "types": "./tasks.ts"
-    },
-    "./update": {
-      "import": "./update.ts",
-      "types": "./update.ts"
     }
   },
   "files": [
-    "*.ts"
+    "config.ts"
   ],
   "repository": {
     "type": "git",
