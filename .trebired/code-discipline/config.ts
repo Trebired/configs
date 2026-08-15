@@ -1,5 +1,5 @@
 export default {
-  forVersion: "6.1.0",
+  forVersion: "7.0.0",
   logging: {
     warnings: false,
   },
@@ -16,6 +16,7 @@ export default {
       ],
     },
     minDeclarationName: {},
+    maxDeclarationName: {},
     maxCharactersPerLine: {},
     structuralBlankLines: {},
     minFileLines: {},
@@ -26,7 +27,7 @@ export default {
       max: 50,
     },
     redundantPathSegments: {},
-    emptyFolders: {},
+    removeEmptyFolders: {},
     removeComments: {},
     imports: {
       alias: {
