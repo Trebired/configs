@@ -4,6 +4,14 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.3.1
+
+### Changed
+
+- Tracks `@trebired/code-discipline` 7.1.2. Only the preset's declared `forVersion` moved; no rule
+  configuration changed. 7.1.2 is the release that aligns code-discipline's `@trebired/utils`
+  dependency onto `^0.8.0` with the rest of the `@trebired` packages.
+
 ## 0.3.0
 
 ### Changed

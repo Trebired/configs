@@ -1,5 +1,5 @@
 export default {
-  forVersion: "7.1.0",
+  forVersion: "7.1.2",
   logging: {
     warnings: false,
   },
