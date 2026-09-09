@@ -4,6 +4,10 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.4.0
+
+- Retargeted the preset at `@trebired/code-discipline` 7.2.0. It named 7.1.2, so every project loading this preset failed its gate once code-discipline reached 7.2.
+
 ## 0.3.1
 
 ### Changed
