@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "category": "package",
+  "subcategory": "tooling",
+  "status": "active",
+  "npm": "@trebired/configs",
+  "description": {
+    "en": "The shared preset every repository's discipline config extends.",
+    "cs": "Sdílený preset, ze kterého vychází konfigurace disciplíny v každém repozitáři."
+  }
+}
