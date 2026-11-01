@@ -1,101 +1,101 @@
 {
   "compilerOptions": {
     "paths": {
-      "#0a8cd0hp6y1x": [
-        "../../frontend/template_01/surfaces.ts"
+      "#0kndp3qs2klj": [
+        "../../frontend/loader.ts"
       ],
-      "#1938xfocnvnb": [
-        "../../frontend/template_01/button.ts"
+      "#1ogey2b8c3q1": [
+        "../../frontend/data.ts"
       ],
-      "#3bqll6coxjwc": [
-        "../../frontend/template_01/palette.ts"
+      "#25jprdcy0z5g": [
+        "../../frontend/pill.ts"
       ],
-      "#6cy7mk5apile": [
-        "../../frontend/template_01/tokens.ts"
+      "#400ntf27aap8": [
+        "../../frontend/input.ts"
       ],
-      "#6p2tc6294vs6": [
-        "../../frontend/template_01/typography.ts"
+      "#4c7raalmttqd": [
+        "../../frontend/feedback.ts"
       ],
-      "#6x9tyxa8xnlu": [
-        "../../frontend/template_01/data.ts"
+      "#5j29iim2behd": [
+        "../../frontend/wizard.ts"
       ],
-      "#79fi3jf0dqgw": [
-        "../../frontend/template_01/wizard.ts"
+      "#79cfmvz15cfb": [
+        "../../frontend/disclosure.ts"
       ],
-      "#7jexmbzoxh4l": [
-        "../../frontend/template_01/dot.ts"
+      "#7x4ckend0jz6": [
+        "../../frontend/steps.ts"
       ],
-      "#7ow8wd1xp798": [
-        "../../frontend/template_01/progress.ts"
+      "#8t8jltvcj9tv": [
+        "../../frontend/overlays.ts"
       ],
-      "#7y4lrvit6zh9": [
-        "../../frontend/template_01/index.ts"
+      "#90l34jll7cid": [
+        "../../frontend/systems.ts"
       ],
-      "#af2x7wfwzv1b": [
-        "../../frontend/template_01/theme.ts"
+      "#9jidsz3td5ah": [
+        "../../frontend/palette.ts"
       ],
-      "#do5m9ze4zzek": [
-        "../../frontend/template_01/upload.ts"
+      "#ay5x1mu98if2": [
+        "../../frontend/choice.ts"
       ],
-      "#hgsb4dx4ntd9": [
-        "../../frontend/template_01/quote.ts"
+      "#c0vkula299f1": [
+        "../../frontend/button.ts"
       ],
-      "#hh5h73d8sydb": [
-        "../../frontend/template_01/systems.ts"
+      "#e66mb4dw9xk5": [
+        "../../frontend/text_link.ts"
       ],
-      "#hwcstl6awvaa": [
-        "../../frontend/template_01/steps.ts"
+      "#ei6ta8s5mjcl": [
+        "../../frontend/tokens.ts"
       ],
-      "#iu9j8vp1hxv1": [
-        "../../frontend/template_01/primitives.ts"
+      "#gkencjwrktuq": [
+        "../../frontend/action_control.ts"
       ],
-      "#j5e412nmc83c": [
-        "../../frontend/template_01/media.ts"
+      "#hcthf6mrw8dd": [
+        "../../frontend/toggle.ts"
       ],
-      "#j6qrdvnd4vx7": [
-        "../../frontend/template_01/text_link.ts"
+      "#i18l7jjbqntp": [
+        "../../frontend/media.ts"
       ],
-      "#lcns1mpddkyb": [
-        "../../frontend/template_01/feedback.ts"
+      "#jb45v21g6em2": [
+        "../../frontend/config.ts"
       ],
-      "#q9r687nuslfv": [
-        "../../frontend/template_01/disclosure.ts"
+      "#kyptdymzjoo6": [
+        "../../frontend/marquee.ts"
       ],
-      "#r8867qktp6en": [
-        "../../frontend/template_01/dropdown.ts"
+      "#lhwy8n2gi096": [
+        "../../frontend/theme.ts"
       ],
-      "#rq1bag0d4wgl": [
-        "../../frontend/template_01/action_control.ts"
+      "#lkpfpm1pat7i": [
+        "../../frontend/primitives.ts"
       ],
-      "#rtthevd4yf1k": [
-        "../../frontend/template_01/choice.ts"
+      "#m2rnbp7lueuf": [
+        "../../frontend/quote.ts"
       ],
-      "#rx9i0b9p61lz": [
-        "../../frontend/template_01/pill.ts"
+      "#nks09xzbwrw8": [
+        "../../frontend/upload.ts"
       ],
-      "#rz053fjwe00z": [
-        "../../frontend/template_01/overlays.ts"
+      "#p4k9zwgnxttp": [
+        "../../frontend/dropdown.ts"
       ],
-      "#sbf2hibkkhox": [
-        "../../frontend/template_01/input.ts"
+      "#pjl5d5snaf2k": [
+        "../../frontend/components.ts"
       ],
-      "#srnht67nss2h": [
-        "../../frontend/template_01/loader.ts"
+      "#q8v1awmuep5y": [
+        "../../frontend/surfaces.ts"
       ],
-      "#st1jsn6azbxu": [
-        "../../frontend/template_01/components.ts"
+      "#qnocnwck2fjf": [
+        "../../frontend/tabs.ts"
       ],
-      "#ve2p627ufju9": [
-        "../../frontend/template_01/shell.ts"
+      "#uq0hutkldbuu": [
+        "../../frontend/shell.ts"
       ],
-      "#vnpdpofkphca": [
-        "../../frontend/template_01/marquee.ts"
+      "#yn9cibg97zdu": [
+        "../../frontend/typography.ts"
       ],
-      "#vqieedkx177a": [
-        "../../frontend/template_01/tabs.ts"
+      "#z6gppfx60jp8": [
+        "../../frontend/progress.ts"
       ],
-      "#wf112eh55p20": [
-        "../../frontend/template_01/toggle.ts"
+      "#zp319dx9i3di": [
+        "../../frontend/dot.ts"
       ]
     }
   }

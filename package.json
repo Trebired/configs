@@ -9,7 +9,7 @@
   },
   "name": "@trebired/configs",
   "version": "0.4.0",
-  "description": "Shared Trebired package configuration presets.",
+  "description": "Shared Trebired configuration presets for Code Discipline and @trebired/frontend.",
   "type": "module",
   "private": false,
   "license": "MIT",
@@ -27,10 +27,27 @@
   },
   "files": [
     ".trebired/code-discipline/config.ts",
+    ".trebired/frontend",
     "CHANGELOG.md",
     "LICENSE",
     "README.md"
   ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@trebired/frontend": "^29.10.0"
+  },
+  "peerDependenciesMeta": {
+    "@trebired/frontend": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@trebired/code-discipline": "7.2.3",
+    "@trebired/frontend": "^29.10.0",
+    "typescript": "^6.0.3"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:Trebired/configs.git"
