@@ -4,6 +4,11 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.5.0
+
+- Added the `@trebired/frontend` preset at `.trebired/frontend/config.ts`. An application loads it with `presets: { use: ["@trebired/configs"] }`, the same shape as the Code Discipline preset. It sets fonts, icon packs, palette, semantic tokens, theme, runtime options, systems and every component token, motion included.
+- Added `@trebired/frontend` `^29.10.0` as an optional peer dependency.
+
 ## 0.4.0
 
 - Retargeted the preset at `@trebired/code-discipline` 7.2.0. It named 7.1.2, so every project loading this preset failed its gate once code-discipline reached 7.2.
