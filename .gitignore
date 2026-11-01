@@ -11,7 +11,7 @@ coverage/
 # Runtime and generated work files
 .tmp/
 cd-report-*.txt
-.trebired/code-discipline/generated/
+.trebired/code-discipline/generated/reports/
 
 # Local environment
 .env

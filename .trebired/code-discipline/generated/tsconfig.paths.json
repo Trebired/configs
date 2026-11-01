@@ -1,0 +1,102 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "#0a8cd0hp6y1x": [
+        "../../frontend/template_01/surfaces.ts"
+      ],
+      "#1938xfocnvnb": [
+        "../../frontend/template_01/button.ts"
+      ],
+      "#3bqll6coxjwc": [
+        "../../frontend/template_01/palette.ts"
+      ],
+      "#6cy7mk5apile": [
+        "../../frontend/template_01/tokens.ts"
+      ],
+      "#6p2tc6294vs6": [
+        "../../frontend/template_01/typography.ts"
+      ],
+      "#6x9tyxa8xnlu": [
+        "../../frontend/template_01/data.ts"
+      ],
+      "#79fi3jf0dqgw": [
+        "../../frontend/template_01/wizard.ts"
+      ],
+      "#7jexmbzoxh4l": [
+        "../../frontend/template_01/dot.ts"
+      ],
+      "#7ow8wd1xp798": [
+        "../../frontend/template_01/progress.ts"
+      ],
+      "#7y4lrvit6zh9": [
+        "../../frontend/template_01/index.ts"
+      ],
+      "#af2x7wfwzv1b": [
+        "../../frontend/template_01/theme.ts"
+      ],
+      "#do5m9ze4zzek": [
+        "../../frontend/template_01/upload.ts"
+      ],
+      "#hgsb4dx4ntd9": [
+        "../../frontend/template_01/quote.ts"
+      ],
+      "#hh5h73d8sydb": [
+        "../../frontend/template_01/systems.ts"
+      ],
+      "#hwcstl6awvaa": [
+        "../../frontend/template_01/steps.ts"
+      ],
+      "#iu9j8vp1hxv1": [
+        "../../frontend/template_01/primitives.ts"
+      ],
+      "#j5e412nmc83c": [
+        "../../frontend/template_01/media.ts"
+      ],
+      "#j6qrdvnd4vx7": [
+        "../../frontend/template_01/text_link.ts"
+      ],
+      "#lcns1mpddkyb": [
+        "../../frontend/template_01/feedback.ts"
+      ],
+      "#q9r687nuslfv": [
+        "../../frontend/template_01/disclosure.ts"
+      ],
+      "#r8867qktp6en": [
+        "../../frontend/template_01/dropdown.ts"
+      ],
+      "#rq1bag0d4wgl": [
+        "../../frontend/template_01/action_control.ts"
+      ],
+      "#rtthevd4yf1k": [
+        "../../frontend/template_01/choice.ts"
+      ],
+      "#rx9i0b9p61lz": [
+        "../../frontend/template_01/pill.ts"
+      ],
+      "#rz053fjwe00z": [
+        "../../frontend/template_01/overlays.ts"
+      ],
+      "#sbf2hibkkhox": [
+        "../../frontend/template_01/input.ts"
+      ],
+      "#srnht67nss2h": [
+        "../../frontend/template_01/loader.ts"
+      ],
+      "#st1jsn6azbxu": [
+        "../../frontend/template_01/components.ts"
+      ],
+      "#ve2p627ufju9": [
+        "../../frontend/template_01/shell.ts"
+      ],
+      "#vnpdpofkphca": [
+        "../../frontend/template_01/marquee.ts"
+      ],
+      "#vqieedkx177a": [
+        "../../frontend/template_01/tabs.ts"
+      ],
+      "#wf112eh55p20": [
+        "../../frontend/template_01/toggle.ts"
+      ]
+    }
+  }
+}
