@@ -30,6 +30,7 @@ export const semantics = {
     warning: token.color("yellow", 600),
     yellow: token.color("yellow", 600),
   },
+  targetMin: "1.5rem",
 } satisfies NonNullable<FrontendDesignConfig["semantics"]>;
 
 export const theme = {

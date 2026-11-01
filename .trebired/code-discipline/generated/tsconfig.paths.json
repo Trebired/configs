@@ -1,101 +1,101 @@
 {
   "compilerOptions": {
     "paths": {
-      "#0kndp3qs2klj": [
-        "../../frontend/loader.ts"
+      "#1on6k7pasn09": [
+        "../../frontend/preset_01/loader.ts"
       ],
-      "#1ogey2b8c3q1": [
-        "../../frontend/data.ts"
+      "#1v9ke4214qob": [
+        "../../frontend/preset_01/surfaces.ts"
       ],
-      "#25jprdcy0z5g": [
-        "../../frontend/pill.ts"
+      "#30d2rcse2ncs": [
+        "../../frontend/preset_01/pill.ts"
       ],
-      "#400ntf27aap8": [
-        "../../frontend/input.ts"
+      "#3vgoo15yyuk7": [
+        "../../frontend/preset_01/dropdown.ts"
       ],
-      "#4c7raalmttqd": [
-        "../../frontend/feedback.ts"
+      "#41ynkhkhmru7": [
+        "../../frontend/preset_01/media.ts"
       ],
-      "#5j29iim2behd": [
-        "../../frontend/wizard.ts"
+      "#5ikmhl18hj3o": [
+        "../../frontend/preset_01/config.ts"
       ],
-      "#79cfmvz15cfb": [
-        "../../frontend/disclosure.ts"
+      "#7n7y47gsdswx": [
+        "../../frontend/preset_01/marquee.ts"
       ],
-      "#7x4ckend0jz6": [
-        "../../frontend/steps.ts"
+      "#7siijapdpx6f": [
+        "../../frontend/preset_01/typography.ts"
       ],
-      "#8t8jltvcj9tv": [
-        "../../frontend/overlays.ts"
+      "#7zu3ctx8mybu": [
+        "../../frontend/preset_01/feedback.ts"
       ],
-      "#90l34jll7cid": [
-        "../../frontend/systems.ts"
+      "#9c3bs3wx4aqz": [
+        "../../frontend/preset_01/progress.ts"
       ],
-      "#9jidsz3td5ah": [
-        "../../frontend/palette.ts"
+      "#adeosjb6bxda": [
+        "../../frontend/preset_01/components.ts"
       ],
-      "#ay5x1mu98if2": [
-        "../../frontend/choice.ts"
+      "#aekd1exo3wt7": [
+        "../../frontend/preset_01/input.ts"
       ],
-      "#c0vkula299f1": [
-        "../../frontend/button.ts"
+      "#b0xcdmc02cq8": [
+        "../../frontend/preset_01/wizard.ts"
       ],
-      "#e66mb4dw9xk5": [
-        "../../frontend/text_link.ts"
+      "#b69th7vslng9": [
+        "../../frontend/preset_01/tabs.ts"
       ],
-      "#ei6ta8s5mjcl": [
-        "../../frontend/tokens.ts"
+      "#bm3wk1cz2ru4": [
+        "../../frontend/preset_01/primitives.ts"
       ],
-      "#gkencjwrktuq": [
-        "../../frontend/action_control.ts"
+      "#bplftujv4vy0": [
+        "../../frontend/preset_01/upload.ts"
       ],
-      "#hcthf6mrw8dd": [
-        "../../frontend/toggle.ts"
+      "#e1x5d405158v": [
+        "../../frontend/preset_01/text_link.ts"
       ],
-      "#i18l7jjbqntp": [
-        "../../frontend/media.ts"
+      "#ej7wddv1zo5b": [
+        "../../frontend/preset_01/systems.ts"
       ],
-      "#jb45v21g6em2": [
-        "../../frontend/config.ts"
+      "#fvwceiuiqgsa": [
+        "../../frontend/preset_01/palette.ts"
       ],
-      "#kyptdymzjoo6": [
-        "../../frontend/marquee.ts"
+      "#fxlhm4whftgc": [
+        "../../frontend/preset_01/data.ts"
       ],
-      "#lhwy8n2gi096": [
-        "../../frontend/theme.ts"
+      "#gudm4nc0wk33": [
+        "../../frontend/preset_01/dot.ts"
       ],
-      "#lkpfpm1pat7i": [
-        "../../frontend/primitives.ts"
+      "#k5ru2wi7yaqd": [
+        "../../frontend/preset_01/overlays.ts"
       ],
-      "#m2rnbp7lueuf": [
-        "../../frontend/quote.ts"
+      "#m4k3ha93c3ff": [
+        "../../frontend/preset_01/toggle.ts"
       ],
-      "#nks09xzbwrw8": [
-        "../../frontend/upload.ts"
+      "#mfewr0g086g6": [
+        "../../frontend/preset_01/shell.ts"
       ],
-      "#p4k9zwgnxttp": [
-        "../../frontend/dropdown.ts"
+      "#n48xwtrq0mvt": [
+        "../../frontend/preset_01/steps.ts"
       ],
-      "#pjl5d5snaf2k": [
-        "../../frontend/components.ts"
+      "#p2rzkssfn0j4": [
+        "../../frontend/preset_01/theme.ts"
       ],
-      "#q8v1awmuep5y": [
-        "../../frontend/surfaces.ts"
+      "#qaw2w7ilvwkp": [
+        "../../frontend/preset_01/tokens.ts"
       ],
-      "#qnocnwck2fjf": [
-        "../../frontend/tabs.ts"
+      "#r17ac8fdu0rb": [
+        "../../frontend/preset_01/choice.ts"
       ],
-      "#uq0hutkldbuu": [
-        "../../frontend/shell.ts"
+      "#r35felyo8fwb": [
+        "../../frontend/preset_01/quote.ts"
       ],
-      "#yn9cibg97zdu": [
-        "../../frontend/typography.ts"
+      "#u33wo9h0tnz4": [
+        "../../frontend/preset_01/disclosure.ts"
       ],
-      "#z6gppfx60jp8": [
-        "../../frontend/progress.ts"
+      "#uzcpf0wcsusw": [
+        "../../frontend/preset_01/action_control.ts"
       ],
-      "#zp319dx9i3di": [
-        "../../frontend/dot.ts"
+      "#xvqxl3p7rw2h": [
+        "../../frontend/preset_01/button.ts"
       ]
     }
   }
