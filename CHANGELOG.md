@@ -4,6 +4,13 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.6.0
+
+- Breaking: every preset has a name under its tool. The Code Discipline baseline moved to `.trebired/code-discipline/preset_01/config.ts`, named `@trebired/configs/code-discipline/preset_01`, and the frontend preset to `.trebired/frontend/preset_01/config.ts`, named `@trebired/configs/frontend/preset_01`. The bare `@trebired/configs` and the package's root export are gone; tools resolve the names through `@trebired/utils`.
+- Retargeted the Code Discipline preset at `@trebired/code-discipline` 8.0, the first line that reads named presets. 8.0.1 is its first published release.
+- Set the touch-target floor in the frontend `preset_01` to the dense 1.5rem, so text inputs, dropdowns and buttons keep the preset's control heights.
+- Retargeted the frontend `preset_01` at `@trebired/frontend` 29.11.0 and raised the peer range to `^29.11.0`.
+
 ## 0.5.0
 
 - Added the `@trebired/frontend` preset at `.trebired/frontend/config.ts`. An application loads it with `presets: { use: ["@trebired/configs"] }`, the same shape as the Code Discipline preset. It sets fonts, icon packs, palette, semantic tokens, theme, runtime options, systems and every component token, motion included.
