@@ -1,9 +1,9 @@
-import { token } from "./tokens";
+import { semantic, token } from "./tokens";
 
 export const primitiveChoice = {
   checked: {
     background: token.color("gray", 900),
-    border: "currentColor",
+    border: semantic.borderSurface2,
   },
   control: {
     activeIconColor: token.color("gray", 600),

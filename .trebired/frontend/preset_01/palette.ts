@@ -99,7 +99,7 @@ export const palette = {
     "canvas-ansi-13": { family: "ruby", step: "500" },
     "canvas-ansi-14": { family: "cyan", step: "500" },
     "canvas-ansi-15": { family: "gray", step: "200" },
-    "focus-color": { family: "blue", step: "500" },
+    "focus-color": { family: "gray", step: "400" },
     "scroll-thumb": { family: "gray", step: "400" },
     "scroll-thumb-hover": { family: "gray", step: "350" },
     "scroll-track": { family: "gray", step: "600" },

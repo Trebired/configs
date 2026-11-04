@@ -4,6 +4,14 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.7.0
+
+- Breaking: the frontend `preset_01` targets `@trebired/frontend` 30.0.0 and the peer range is `^30.0.0`.
+- The frontend `preset_01` sets the `ink` tone to gray 0, white on the dark theme and near black on the light one.
+- The frontend `preset_01` focus colour is gray 400 instead of blue 500. Nothing else in the preset's interface is blue, so focus rings, checked boxes and drop zones no longer stand out in a colour the theme does not use.
+- The frontend `preset_01` is the one definition of buttons for its apps. `primary`, the default in `@trebired/frontend` 30.0.0, is the standard button: gray 900 with a `border-surface-2` hairline. `secondary` is the quiet one: transparent with a `border-surface-1` hairline. The `red`, `yellow` and `green` tones colour the side borders of either, and icon buttons are square in sizes `xs2` to `lg`. The `danger` and `ghost` variants are gone; a destructive action is a button with the `red` tone.
+- The frontend `preset_01` draws a ticked choice row's border in `border-surface-2`, the hairline tone buttons use, instead of `currentColor`. A ticked row no longer gets a full-contrast white or black outline.
+
 ## 0.6.0
 
 - Breaking: every preset has a name under its tool. The Code Discipline baseline moved to `.trebired/code-discipline/preset_01/config.ts`, named `@trebired/configs/code-discipline/preset_01`, and the frontend preset to `.trebired/frontend/preset_01/config.ts`, named `@trebired/configs/frontend/preset_01`. The bare `@trebired/configs` and the package's root export are gone; tools resolve the names through `@trebired/utils`.

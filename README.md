@@ -53,7 +53,7 @@ import { defineConfig } from "@trebired/frontend/config";
 import { containers } from "./containers";
 
 export default defineConfig({
-  forVersion: "29.11.0",
+  forVersion: "30.0.0",
   presets: {
     use: ["@trebired/configs/frontend/preset_01"],
   },

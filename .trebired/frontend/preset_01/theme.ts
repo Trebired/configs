@@ -23,6 +23,7 @@ export const semantics = {
     gray: token.color("gray", 600),
     green: token.color("green", 600),
     info: token.color("blue", 600),
+    ink: token.color("gray", 0),
     muted: token.color("gray", 600),
     purple: token.color("ruby", 600),
     red: token.color("red", 600),
