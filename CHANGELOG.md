@@ -4,6 +4,11 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.8.0
+
+- Breaking: the frontend `preset_01` targets `@trebired/frontend` 30.1.0 and the peer range is `^30.1.0`.
+- The frontend `preset_01` paints a hovered log line gray 800, the colour of a hovered dropdown option. The faint gray 700 at 28% barely showed on the dark log canvas.
+
 ## 0.7.0
 
 - Breaking: the frontend `preset_01` targets `@trebired/frontend` 30.0.0 and the peer range is `^30.0.0`.

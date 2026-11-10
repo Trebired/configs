@@ -22,7 +22,7 @@ export const data = {
     line: {
       states: {
         hover: {
-          background: token.colorMix(token.color("gray", 700), "28%"),
+          background: token.color("gray", 800),
         },
       },
     },
