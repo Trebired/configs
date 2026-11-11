@@ -6,11 +6,11 @@
       "name": "@trebired/configs",
       "devDependencies": {
         "@trebired/code-discipline": "^8.0.3",
-        "@trebired/frontend": "^30.1.0",
+        "@trebired/frontend": "^30.2.0",
         "typescript": "^6.0.3",
       },
       "peerDependencies": {
-        "@trebired/frontend": "^30.1.0",
+        "@trebired/frontend": "^30.2.0",
       },
       "optionalPeers": [
         "@trebired/frontend",
@@ -30,7 +30,7 @@
 
     "@trebired/code-discipline": ["@trebired/code-discipline@8.0.3", "", { "dependencies": { "@package/logger": "npm:@trebired/logger@^3.0.0", "@package/result": "npm:@trebired/result@^1.2.8", "@trebired/utils": "^0.9.7", "typescript": "^6.0.3" }, "bin": { "code-discipline": "dist/cli.js" } }, "sha512-sOHWB6+mr0pIEsByu36xezIRMTaa90LFy3SgtSsTIlHg+qMnkIS+NHRGotxHUDC/GWglrrIi+MqiIY9yomPBww=="],
 
-    "@trebired/frontend": ["@trebired/frontend@30.1.0", "", { "dependencies": { "@package/logger-adapter": "npm:@trebired/logger-adapter@^0.8.2", "@trebired/utils": "^0.9.9", "chart.js": "^4.5.1", "country-flag-icons": "^1.6.20", "cropperjs": "^1.6.2", "react-markdown": "^10.1.0", "rehype-sanitize": "^6.0.0", "remark-gfm": "^4.0.1", "remixicon": "^4.9.1", "simple-icons": "^16.28.0", "socket.io-client": "^4.8.3" }, "peerDependencies": { "@trebired/overprint": "^0.9.0", "react": ">=18", "react-dom": ">=18", "sharp": "^0.34.5" }, "optionalPeers": ["@trebired/overprint", "react", "react-dom", "sharp"] }, "sha512-rvQpbkx91ww6dktBb52akYz5zwG+VR4Ia5tqSOlQBSdNhydxGAFlfV0FZHvKb8Lf2m+t2WZMY3L0nMxPlBIBOw=="],
+    "@trebired/frontend": ["@trebired/frontend@30.2.0", "", { "dependencies": { "@package/logger-adapter": "npm:@trebired/logger-adapter@^0.8.2", "@trebired/utils": "^0.9.9", "chart.js": "^4.5.1", "country-flag-icons": "^1.6.20", "cropperjs": "^1.6.2", "react-markdown": "^10.1.0", "rehype-sanitize": "^6.0.0", "remark-gfm": "^4.0.1", "remixicon": "^4.9.1", "simple-icons": "^16.28.0", "socket.io-client": "^4.8.3" }, "peerDependencies": { "@trebired/overprint": "^0.9.0", "react": ">=18", "react-dom": ">=18", "sharp": "^0.34.5" }, "optionalPeers": ["@trebired/overprint", "react", "react-dom", "sharp"] }, "sha512-MKTNsc7a2Cq0cfBAXnzwIhvHksUfE9bZshhUUFY6/1JGf3ReUGBwDU8DWqC+9QoZC8mdajwPuRUr6kUjz9jETw=="],
 
     "@trebired/utils": ["@trebired/utils@0.9.9", "", {}, "sha512-4MH4N7uM6ZFp2fEbJwo9Gd+xbXZH5VdkgRp7ZbxEUNMr0t15tbgh4JcuoHYbmOXu+YKsVCACHshPRAAbBCc21Q=="],
 

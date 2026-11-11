@@ -4,6 +4,10 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.9.0
+
+- Breaking: the frontend `preset_01` targets `@trebired/frontend` 30.2.0 and the peer range is `^30.2.0`.
+
 ## 0.8.0
 
 - Breaking: the frontend `preset_01` targets `@trebired/frontend` 30.1.0 and the peer range is `^30.1.0`.
