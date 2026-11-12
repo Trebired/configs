@@ -16,22 +16,16 @@ export const primitiveTextLink = {
     textDecorationThickness: "1px",
     textTransform: "none",
     textUnderlineOffset: "3px",
-    underlineColor: "currentColor",
-    underlineGap: "calc(.35em + .375rem)",
-    underlineHeight: "max(1px, .0625em)",
-    underlineMidline: ".325em",
-    underlineRadius: ".3em",
+    underlineColor: "transparent",
+    underlineHeight: "0",
   },
   states: {
     active: {
       color: "var(--tbf-ui-link-state-hover-color, var(--tbf-text, currentColor))",
-      underlineColor: "var(--tbf-ui-link-root-underline-color, currentColor)",
     },
     hover: {
       color: semantic.textColor,
-      decorationLine: "var(--tbf-ui-link-root-decoration-line, none)",
       textDecorationColor: "currentColor",
-      textDecorationStyle: "solid",
     },
   },
 };
