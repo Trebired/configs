@@ -4,6 +4,11 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.11.0
+
+- Added the `line-card` container to the frontend `preset_01`: a padded row card that takes the log line's hover background, with `lead`, `main`, `text`, `fixed`, `end` and `trail` parts. `text` is one line cut with an ellipsis; on phones `lead` and `trail` share the first line and the rest moves to the second.
+- The log line hover and `line-card` hover read one shared colour.
+
 ## 0.10.0
 
 - Breaking: the frontend `preset_01` targets `@trebired/frontend` 31.0.0 and the peer range is `^31.0.0`.
