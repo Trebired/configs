@@ -1,6 +1,7 @@
 import type { FrontendConfig } from "@trebired/frontend/config";
 
 import { components } from "./components";
+import { containers } from "./containers";
 import { palette } from "./palette";
 import { systems } from "./systems";
 import { runtime, semantics } from "./theme";
@@ -26,6 +27,7 @@ export default {
     },
   },
   components,
+  containers,
   design: {
     interactions: {
       activePress: {

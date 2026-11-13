@@ -1,5 +1,7 @@
 import { token } from "./tokens";
 
+export const logLineHoverBackground = token.color("gray", 800);
+
 export const data = {
   graph: {
     download: {
@@ -22,7 +24,7 @@ export const data = {
     line: {
       states: {
         hover: {
-          background: token.color("gray", 800),
+          background: logLineHoverBackground,
         },
       },
     },
