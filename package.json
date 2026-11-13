@@ -8,7 +8,7 @@
     }
   },
   "name": "@trebired/configs",
-  "version": "0.11.0",
+  "version": "0.11.1",
   "description": "Shared Trebired configuration presets for Code Discipline and @trebired/frontend.",
   "type": "module",
   "private": false,

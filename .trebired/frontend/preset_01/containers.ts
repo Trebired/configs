@@ -1,11 +1,10 @@
 import { logLineHoverBackground } from "./data";
-import { token, ui } from "./tokens";
+import { token } from "./tokens";
 
 export const containers = {
   "line-card": {
     style: {
       alignItems: "center",
-      borderRadius: ui.radiusMd,
       columnGap: "20px",
       display: "flex",
       flexWrap: "wrap",

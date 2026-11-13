@@ -4,6 +4,10 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.11.1
+
+- `line-card` has square corners. Rows sit flush in a list, so a radius made dividers between them bend at the ends and kept the hover fill from lining up with them.
+
 ## 0.11.0
 
 - Added the `line-card` container to the frontend `preset_01`: a padded row card that takes the log line's hover background, with `lead`, `main`, `text`, `fixed`, `end` and `trail` parts. `text` is one line cut with an ellipsis; on phones `lead` and `trail` share the first line and the rest moves to the second.
