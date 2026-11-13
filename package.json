@@ -8,7 +8,7 @@
     }
   },
   "name": "@trebired/configs",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "description": "Shared Trebired configuration presets for Code Discipline and @trebired/frontend.",
   "type": "module",
   "private": false,
@@ -28,7 +28,7 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@trebired/frontend": "^30.2.0"
+    "@trebired/frontend": "^31.0.0"
   },
   "peerDependenciesMeta": {
     "@trebired/frontend": {
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@trebired/code-discipline": "^8.0.3",
-    "@trebired/frontend": "^30.2.0",
+    "@trebired/frontend": "^31.0.0",
     "typescript": "^6.0.3"
   },
   "repository": {

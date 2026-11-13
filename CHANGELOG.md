@@ -4,6 +4,10 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.10.0
+
+- Breaking: the frontend `preset_01` targets `@trebired/frontend` 31.0.0 and the peer range is `^31.0.0`.
+
 ## 0.9.1
 
 - The frontend `preset_01` text link has one underline. It drew tbf's hover underline under the dotted text decoration, so a hovered link showed two lines. The dotted decoration is now its only underline, solid colour on hover.

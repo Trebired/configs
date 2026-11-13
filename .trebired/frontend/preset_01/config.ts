@@ -6,7 +6,7 @@ import { systems } from "./systems";
 import { runtime, semantics } from "./theme";
 
 export default {
-  forVersion: "30.2.0",
+  forVersion: "31.0.0",
   assets: {
     fonts: {
       families: {
