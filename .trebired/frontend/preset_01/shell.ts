@@ -238,6 +238,11 @@ export const shell = {
     maxWidth: "100%",
     offset: "1.5rem",
   },
+  sidebar: {
+    controls: {
+      padding: "var(--tbf-gap-xs2, 4px)",
+    },
+  },
   theme: {
     option: {
       states: {

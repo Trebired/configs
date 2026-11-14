@@ -4,6 +4,10 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.11.3
+
+- The frontend `preset_01` pads the product shell's sidebar controls card (minimize, theme, language, about) with `gap-xs2`, so the buttons sit close to its edge. It needs `@trebired/frontend` 31.0.8, which added the token; on 31.0.7 or older the card keeps its old padding.
+
 ## 0.11.2
 
 - Added the `line-list` container to the frontend `preset_01`: a column of `line-card` rows with no gap and a hairline between visible rows, never above the first or below the last. Rows can be direct children or sit one level down in a wrapper such as a search item.
