@@ -1,5 +1,7 @@
 import { logLineHoverBackground } from "./data";
-import { token } from "./tokens";
+import { semantic, token } from "./tokens";
+
+const hairline = token.border(semantic.borderSurface1);
 
 export const containers = {
   "line-card": {
@@ -32,6 +34,13 @@ export const containers = {
       },
       text: { style: { minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" } },
       trail: { style: { flexShrink: "0" }, at: { sm: { order: "1" } } },
+    },
+  },
+  "line-list": {
+    style: { display: "flex", flexDirection: "column", gap: "0", minWidth: 0 },
+    on: {
+      "& > .tbfm-line-card:not([hidden]) ~ .tbfm-line-card:not([hidden])": { borderTop: hairline },
+      "& > :not([hidden]):not(.tbfm-line-card) ~ :not([hidden]):not(.tbfm-line-card) > .tbfm-line-card": { borderTop: hairline },
     },
   },
 };
