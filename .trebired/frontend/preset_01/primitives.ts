@@ -7,6 +7,7 @@ import { primitiveDropdown } from "./dropdown";
 import { primitiveInput } from "./input";
 import { primitiveLoader } from "./loader";
 import { primitiveMarquee } from "./marquee";
+import { primitiveNumber } from "./number";
 import { primitivePill } from "./pill";
 import { primitiveProgress } from "./progress";
 import { primitiveQuote } from "./quote";
@@ -27,6 +28,7 @@ export const primitives = {
   input: primitiveInput,
   loader: primitiveLoader,
   marquee: primitiveMarquee,
+  number: primitiveNumber,
   pill: primitivePill,
   progress: primitiveProgress,
   quote: primitiveQuote,

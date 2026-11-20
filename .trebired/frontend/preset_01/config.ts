@@ -7,7 +7,7 @@ import { systems } from "./systems";
 import { runtime, semantics } from "./theme";
 
 export default {
-  forVersion: "31.0.0",
+  forVersion: "32.0.0",
   assets: {
     fonts: {
       families: {
@@ -22,7 +22,6 @@ export default {
       sans: "\"Inter\", sans-serif",
     },
     icons: {
-      endpoint: "/__icons/svg",
       packs: ["remixicon", "simple-icons", "material-icon-theme"],
     },
   },

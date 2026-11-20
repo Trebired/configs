@@ -12,15 +12,19 @@ export const feedback = {
     },
     intents: {
       error: {
+        glyph: "circled",
         iconColor: token.color("red", 500),
       },
       info: {
-        iconColor: token.color("gray", 500),
+        glyph: "circled",
+        iconColor: token.color("blue", 500),
       },
       success: {
+        glyph: "circled",
         iconColor: token.color("green", 500),
       },
       warn: {
+        glyph: "circled",
         iconColor: token.color("yellow", 500),
       },
     },
@@ -40,7 +44,6 @@ export const feedback = {
         fontSize: "0.92rem",
       },
       icon: {
-        fontWeight: "700",
         size: "18px",
       },
       progress: {

@@ -4,6 +4,13 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.12.0
+
+- The frontend `preset_01` draws every card itself. It declares three containers that claim the roles `@trebired/frontend` 32 renders: `card` (role `card`) with the `muted`, `inverse` and `accent` variants, `card-02` (role `card-row`) for card rows with their hover, selected and pressable states, and `card-03` (role `log-line`) for log lines. It needs `@trebired/frontend` 32.0.0, which no longer styles a card, a card row or a log line on its own.
+- Renamed the `line-card` container to `card-03`. Markup that used `tbfm-line-card` uses `tbfm-card-03`, with the same parts.
+- Removed the `line-list` container. A list of rows uses `tbf-column tbf-divided` from `@trebired/frontend` 32, which draws the line between rows instead of on them.
+- Removed the card `root`, `row`, `states` and `tones` tokens and the log line hover token from the preset; the containers carry those values now. The card section padding is `14px 14px 12px 14px`, the value it inherited from the card before.
+
 ## 0.11.3
 
 - The frontend `preset_01` pads the product shell's sidebar controls card (minimize, theme, language, about) with `gap-xs2`, so the buttons sit close to its edge. It needs `@trebired/frontend` 31.0.8, which added the token; on 31.0.7 or older the card keeps its old padding.

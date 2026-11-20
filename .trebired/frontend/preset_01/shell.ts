@@ -240,7 +240,7 @@ export const shell = {
   },
   sidebar: {
     controls: {
-      padding: "var(--tbf-gap-xs2, 4px)",
+      padding: "var(--tbf-gap-xs, 8px)",
     },
   },
   theme: {

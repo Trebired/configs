@@ -132,37 +132,7 @@ export const surfaces = {
       },
     },
     iconRadius: "var(--radius-md, var(--tbf-radius, 0))",
-    root: {
-      background: semantic.backgroundPage,
-      border: token.border(semantic.borderSurface1),
-      color: "var(--tbf-text, #000)",
-      minHeight: ui.heightXs4,
-      padding: "14px 14px 12px 14px",
-      radius: ui.radiusLg,
-      transition: [
-        "background-color var(--tbf-transition-fast, .18s) var(--tbf-transition-easing, ease),",
-        "border-color var(--tbf-transition-fast, .18s) var(--tbf-transition-easing, ease), color",
-        "var(--tbf-transition-fast, .18s) var(--tbf-transition-easing, ease)",
-      ].join(" "),
-    },
-    row: {
-      background: "transparent",
-      border: token.border(semantic.borderSurface1),
-      padding: "9px 12px",
-      radius: ui.radiusLg,
-      states: {
-        excluded: {
-          border: "var(--border-surface-1)",
-        },
-        hover: {
-          background: token.color("gray", 900),
-        },
-        selected: {
-          background: semantic.backgroundSurface1,
-        },
-      },
-    },
-    sectionPadding: "var(--tbf-surf-card-root-padding, 12px)",
+    sectionPadding: "14px 14px 12px 14px",
     sizes: {
       lg: {
         padding: "var(--tbf-gap-lg, 40px)",
@@ -174,56 +144,10 @@ export const surfaces = {
         padding: "var(--tbf-gap-sm, 12px)",
       },
     },
-    states: {
-      hover: {
-        border: "var(--tbf-focus, #000)",
-      },
-    },
     title: {
       fontSize: "15px",
       fontWeight: "700",
       margin: "0 0 10px 0",
-    },
-    tones: {
-      accent: {
-        color: "var(--tbf-page, #fff)",
-        states: {
-          hover: {
-            background: "var(--tbf-ui-card-tone-accent-state-hover-bg, transparent)",
-            border: "var(--tbf-ui-card-tone-accent-state-hover-border, currentColor)",
-          },
-        },
-        textMuted: "color-mix(in srgb, currentColor 70%, transparent)",
-      },
-      inverse: {
-        color: "var(--tbf-page, #fff)",
-        states: {
-          hover: {
-            background: "var(--tbf-ui-card-tone-inverse-state-hover-bg, transparent)",
-            border: "var(--tbf-ui-card-tone-inverse-state-hover-border, currentColor)",
-          },
-        },
-        textMuted: "color-mix(in srgb, currentColor 62%, transparent)",
-      },
-      muted: {
-        color: "var(--tbf-text, #000)",
-        states: {
-          hover: {
-            background: "var(--tbf-ui-card-tone-muted-state-hover-bg, transparent)",
-            border: "var(--tbf-ui-card-tone-muted-state-hover-border, currentColor)",
-          },
-        },
-      },
-      surface: {
-        background: "var(--tbf-ui-card-tone-surface-bg, var(--tbf-ui-card-root-bg, transparent))",
-        border: "var(--tbf-ui-card-tone-surface-border, currentColor)",
-        states: {
-          hover: {
-            background: "var(--tbf-ui-card-tone-surface-state-hover-bg, transparent)",
-            border: "var(--tbf-ui-card-tone-surface-state-hover-border, currentColor)",
-          },
-        },
-      },
     },
   },
   hairline: {

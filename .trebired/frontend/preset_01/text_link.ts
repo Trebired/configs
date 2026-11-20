@@ -26,6 +26,7 @@ export const primitiveTextLink = {
     hover: {
       color: semantic.textColor,
       textDecorationColor: "currentColor",
+      textDecorationStyle: "solid",
     },
   },
 };
