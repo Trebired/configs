@@ -4,6 +4,11 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.13.0
+
+- Added the startup `preset_01`, `@trebired/configs/startup/preset_01`, with the texts that `@trebired/startup` 0.9.0 no longer carries itself. Its `logs` write `Welcome to {product.name} {product.version}` and `Server is ready on port {port}. Startup took {duration}.` on `ready`. Its `starting` response answers `{product.name} {product.version} is starting on port {port}.` followed by `It will be ready in a few seconds. Try again shortly.` from `starting` until `ready` or `failed`. It needs `@trebired/startup` 0.9.0.
+- The frontend `preset_01` targets `@trebired/frontend` 32.1.0.
+
 ## 0.12.0
 
 - The frontend `preset_01` draws every card itself. It declares three containers that claim the roles `@trebired/frontend` 32 renders: `card` (role `card`) with the `muted`, `inverse` and `accent` variants, `card-02` (role `card-row`) for card rows with their hover, selected and pressable states, and `card-03` (role `log-line`) for log lines. It needs `@trebired/frontend` 32.0.0, which no longer styles a card, a card row or a log line on its own.

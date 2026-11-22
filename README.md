@@ -1,8 +1,8 @@
 # @trebired/configs
 
-Shared Trebired configuration presets for Code Discipline and `@trebired/frontend`.
+Shared Trebired configuration presets for Code Discipline, `@trebired/frontend` and `@trebired/startup`.
 
-This package owns reusable Trebired configuration payloads. Callers own their repository-specific overrides, banned patterns, source boundaries, and their own `@trebired/frontend` containers.
+This package owns reusable Trebired configuration payloads. Callers own their repository-specific overrides, banned patterns, source boundaries, their own `@trebired/frontend` containers, and their own startup logs and responses.
 
 ## Install
 
@@ -36,6 +36,7 @@ Each tool's presets live in that tool's folder, one folder per named preset:
 | --- | --- | --- |
 | Code Discipline `preset_01` | `.trebired/code-discipline/preset_01/config.ts` | `@trebired/configs/code-discipline/preset_01` |
 | Frontend `preset_01` | `.trebired/frontend/preset_01/config.ts` | `@trebired/configs/frontend/preset_01` |
+| Startup `preset_01` | `.trebired/startup/preset_01/config.ts` | `@trebired/configs/startup/preset_01` |
 
 Every tool resolves these names through `applyPresets` in `@trebired/utils`. A name always carries the package, the tool and the preset, and a tool refuses a preset written for another tool. Each preset declares the tool version it targets through `forVersion`.
 
@@ -63,7 +64,30 @@ export default defineConfig({
 
 The application installs the packages the preset names: `@fontsource/inter`, `remixicon`, `simple-icons` and `material-icon-theme`. A missing icon pack renders no icons from that pack.
 
-`@trebired/frontend` is an optional peer dependency. A repository that loads only the Code Discipline preset does not install it.
+### Startup preset_01
+
+`preset_01` holds the Trebired `@trebired/startup` texts:
+
+- two logs on `ready`: `welcome` (`Welcome to {product.name} {product.version}`) and `ready` (`Server is ready on port {port}. Startup took {duration}.`);
+- one response, `starting`, active from `starting` until `ready` or `failed`: `{product.name} {product.version} is starting on port {port}.` then `It will be ready in a few seconds. Try again shortly.`
+
+An application overrides any of them by key, or adds its own logs and responses on its own events:
+
+```ts
+import { defineConfig } from "@trebired/startup/config";
+
+export default defineConfig({
+  forVersion: "0.9.0",
+  presets: {
+    use: ["@trebired/configs/startup/preset_01"],
+  },
+  logs: {
+    ready: { enabled: false, on: "ready" },
+  },
+});
+```
+
+`@trebired/frontend` and `@trebired/startup` are optional peer dependencies. A repository installs only the tools whose presets it loads.
 
 ## Public API
 

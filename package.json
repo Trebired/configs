@@ -8,8 +8,8 @@
     }
   },
   "name": "@trebired/configs",
-  "version": "0.12.0",
-  "description": "Shared Trebired configuration presets for Code Discipline and @trebired/frontend.",
+  "version": "0.13.0",
+  "description": "Shared Trebired configuration presets for Code Discipline, @trebired/frontend and @trebired/startup.",
   "type": "module",
   "private": false,
   "license": "MIT",
@@ -20,6 +20,7 @@
   "files": [
     ".trebired/code-discipline/preset_01",
     ".trebired/frontend/preset_01",
+    ".trebired/startup/preset_01",
     "CHANGELOG.md",
     "LICENSE",
     "README.md"
@@ -28,16 +29,21 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@trebired/frontend": "^32.0.0"
+    "@trebired/frontend": "^32.1.0",
+    "@trebired/startup": "^0.9.0"
   },
   "peerDependenciesMeta": {
     "@trebired/frontend": {
+      "optional": true
+    },
+    "@trebired/startup": {
       "optional": true
     }
   },
   "devDependencies": {
     "@trebired/code-discipline": "^8.0.3",
-    "@trebired/frontend": "^32.0.0",
+    "@trebired/frontend": "^32.1.0",
+    "@trebired/startup": "^0.9.0",
     "typescript": "^6.0.3"
   },
   "repository": {
