@@ -4,6 +4,10 @@ All notable changes to `@trebired/configs` will be documented here.
 
 This project follows semantic versioning once published.
 
+## 0.13.1
+
+- The frontend `preset_01` targets `@trebired/frontend` 32.2.0, which adds the colour picker.
+
 ## 0.13.0
 
 - Added the startup `preset_01`, `@trebired/configs/startup/preset_01`, with the texts that `@trebired/startup` 0.9.0 no longer carries itself. Its `logs` write `Welcome to {product.name} {product.version}` and `Server is ready on port {port}. Startup took {duration}.` on `ready`. Its `starting` response answers `{product.name} {product.version} is starting on port {port}.` followed by `It will be ready in a few seconds. Try again shortly.` from `starting` until `ready` or `failed`. It needs `@trebired/startup` 0.9.0.
